@@ -9,6 +9,7 @@ against a slow but obviously correct reference. No dependencies, just the JDK.
 ```bash
 ./build.sh                                              # compile with -Xlint:all and run all 19 tests
 java -cp out/main:out/test dev.samridhi.routes.Bench    # reproduce the numbers below
+                                                        # (on Windows use out/main;out/test)
 ```
 
 ## Part 1: one route
